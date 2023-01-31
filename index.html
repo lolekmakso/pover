@@ -11,38 +11,53 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <a href="#" class="header-logo"
-          ><img src="img/logo.svg" alt="logo"
-        /></a>
-        <ul class="header-links">
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Partners</a></li>
-          <li><a href="#">Stories</a></li>
-        </ul>
-        <div class="header-download">
-          <a href="#" class="btn">Download for free</a>
-        </div>
-      </header>
-      <main class="main">
-        <h1 class="main-title">The Power of Simplicity</h1>
-        <p class="main-desc">
-          Instead of spending time searching for the right app, our AI will
-          bring the right app to you.
-        </p>
-        <div><a href="#" class="main-btn">Learn</a></div>
-        <div class="loaders">
-          <img src="img/ellipses.svg" alt="Circle" />
-          <img src="img/ellipses.svg" alt="Circle" />
-          <img src="img/ellipses_half.svg" alt="Circle Half" />
-          <img src="img/ellipses.svg" alt="Circle" />
-          <img src="img/ellipses.svg" alt="Circle" />
-        </div>
-      </main>
+    <div class="wrapper">
+      <div class="container">
+        <header class="header">
+          <a href="#" class="header-logo"
+            ><img src="img/logo.svg" alt="logo"
+          /></a>
+
+          <input id="menuCheckbox" type="checkbox" />
+          <ul class="header-links">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Stories</a></li>
+          </ul>
+          <label for="menuCheckbox">
+            <span class="material-symbols-outlined icon-menu"> menu </span>
+            <span class="material-symbols-outlined icon-close">
+              close
+            </span></label
+          >
+          <div class="header-download">
+            <a href="#" class="btn">Download for free</a>
+          </div>
+        </header>
+        <main class="main">
+          <h1 class="main-title">The Power of Simplicity</h1>
+          <p class="main-desc">
+            Instead of spending time searching for the right app, our AI will
+            bring the right app to you.
+          </p>
+          <div><a href="#" class="main-btn">Learn</a></div>
+          <div class="loaders">
+            <img src="img/ellipses.svg" alt="Circle" />
+            <img src="img/ellipses.svg" alt="Circle" />
+            <img src="img/ellipses_half.svg" alt="Circle Half" />
+            <img src="img/ellipses.svg" alt="Circle" />
+            <img src="img/ellipses.svg" alt="Circle" />
+          </div>
+        </main>
+      </div>
     </div>
   </body>
 </html>
