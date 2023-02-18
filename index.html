@@ -27,12 +27,12 @@
           /></a>
 
           <input id="menuCheckbox" type="checkbox" />
-          <ul class="header-links">
+          <ul class="header-links" id="headerLinks">
             <li><a href="#">Features</a></li>
             <li><a href="#">Partners</a></li>
             <li><a href="#">Stories</a></li>
           </ul>
-          <label for="menuCheckbox">
+          <label class="menu-icon" for="menuCheckbox" id="menuIcon" onclick="navToggle()">
             <span class="material-symbols-outlined icon-menu"> menu </span>
             <span class="material-symbols-outlined icon-close">
               close
@@ -59,5 +59,6 @@
         </main>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
